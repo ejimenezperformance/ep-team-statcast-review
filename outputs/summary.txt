@@ -1,0 +1,23 @@
+=== Teams: 30 offense, 30 pitching ===
+--- OFFENSE ---
+gap persistence 2025->2026: r=+0.26 [95% CI -0.04, +0.55] spearman=+0.26 slope=+0.29 [-0.04, +0.70]
+benchmarks: xwOBA r=+0.44   wOBA r=+0.14
+predict 2026 wOBA: RMSE from last wOBA=0.0088, from last xwOBA=0.0088, gain=-0.0000 [-0.0003, +0.0003]
+VERDICT (offense): NOT CONFIRMED (null result)
+--- PITCHING ---
+gap persistence 2025->2026: r=+0.40 [95% CI +0.01, +0.65] spearman=+0.24 slope=+0.45 [+0.01, +0.89]
+benchmarks: xwOBA r=+0.63   wOBA r=+0.61
+predict 2026 wOBA: RMSE from last wOBA=0.0140, from last xwOBA=0.0147, gain=-0.0007 [-0.0023, +0.0008]
+VERDICT (pitching): CONFIRMED
+=== Split-half inside each season (secondary, descriptive) ===
+2025 offense: r=+0.34 [-0.03, +0.60]
+2025 pitching: r=+0.42 [-0.02, +0.72]
+2026 offense: r=+0.37 [+0.11, +0.60]
+2026 pitching: r=+0.54 [+0.12, +0.76]
+=== EXPLORATORY (decided after seeing the main result): is the gap a ballpark effect? ===
+offense home: r=+0.41 [+0.06, +0.67] spearman=+0.26 n=30
+offense road: r=+0.11 [-0.23, +0.43] spearman=+0.06 n=30
+offense without_COL_ATH: r=+0.19 [-0.16, +0.51] spearman=+0.16 n=28
+pitching home: r=+0.58 [+0.23, +0.77] spearman=+0.42 n=30
+pitching road: r=-0.05 [-0.37, +0.30] spearman=-0.02 n=30
+pitching without_COL_ATH: r=+0.17 [-0.21, +0.49] spearman=+0.08 n=28

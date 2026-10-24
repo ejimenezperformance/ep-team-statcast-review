@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+data/chunks_*/
+data/*.csv
+outputs/team_offense_*.csv
+outputs/team_pitching_*.csv

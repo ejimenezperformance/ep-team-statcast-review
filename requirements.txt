@@ -1,0 +1,5 @@
+pandas
+numpy
+scipy
+matplotlib
+pybaseball>=2.2.7
